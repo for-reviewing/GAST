@@ -1,4 +1,4 @@
-# GAST: Graph-Augmented Spectral–Spatial Transformer for Hyperspectral Image Classification
+# GAST: A Graph-Augmented Spectral–Spatial Transformer with Adaptive Gated Fusion for Small-Sample Hyperspectral Image Classification
 
 Hyperspectral image (HSI) classification demands models that can exploit both the hundreds of narrow spectral bands and the fine-grained spatial structure captured by modern sensors, yet remain robust to the severe scarcity of *labelled* pixels. 
 
