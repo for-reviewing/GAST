@@ -1,0 +1,5 @@
+    Variant    OA    AA  Kappa
+       Gate 99.04 99.16  98.96
+No Spectral 94.94 95.09  94.52
+ No Spatial 98.91 99.00  98.81
+     Concat 98.77 98.66  98.67

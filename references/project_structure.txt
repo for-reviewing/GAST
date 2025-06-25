@@ -1,0 +1,3503 @@
+GAST2/
+# Root of the project
+├── models/
+│    
+│   ├── checkpoints/
+│   │    
+│   │   └── gast/
+│   │        
+│   │       ├── Botswana/
+│   │       │    
+│   │       │   ├── trial_0/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_1/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_10/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_11/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_12/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_13/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_14/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_15/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_16/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_17/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_18/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_19/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_2/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_20/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_21/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_22/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_23/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_24/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_25/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_26/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_27/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_28/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_29/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_3/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_30/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_31/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_32/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_33/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_34/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_35/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_36/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_37/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_38/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_39/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_4/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_40/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_41/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_42/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_43/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_44/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_45/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_46/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_47/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_48/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_49/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_5/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_6/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_7/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   ├── trial_8/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Botswana_full_gast.json
+│   │       │   └── trial_9/
+│   │       │        
+│   │       │       ├── splits/
+│   │       │       │    
+│   │       │       │   ├── class_distribution_seed_42.txt
+│   │       │       │   ├── test_idx_seed_42.npy
+│   │       │       │   ├── train_idx_seed_42.npy
+│   │       │       │   └── val_idx_seed_42.npy
+│   │       │       └── train_history_Botswana_full_gast.json
+│   │       ├── Houston13/
+│   │       │    
+│   │       │   ├── trial_0/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_1/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_10/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_11/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_12/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_13/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_14/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_15/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_16/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_17/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_18/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_19/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_2/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_20/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_21/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_22/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_23/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_24/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_25/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_26/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_27/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_28/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_29/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_3/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_30/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_31/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_32/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_33/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_34/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_35/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_36/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_37/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_38/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_39/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_4/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_40/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_41/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_42/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_43/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_44/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_45/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_46/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_47/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_48/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_49/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_5/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_6/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_7/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Houston13_full_gast.json
+│   │       │   ├── trial_8/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   └── trial_9/
+│   │       │        
+│   │       │       └── splits/
+│   │       │            
+│   │       │           ├── class_distribution_seed_42.txt
+│   │       │           ├── test_idx_seed_42.npy
+│   │       │           ├── train_idx_seed_42.npy
+│   │       │           └── val_idx_seed_42.npy
+│   │       ├── Indian_Pines/
+│   │       │    
+│   │       │   ├── trial_0/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_1/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_10/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_11/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_12/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_13/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_14/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_15/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_16/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_17/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_18/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_19/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_2/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_20/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_21/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_22/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_23/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_24/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_25/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_26/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_27/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_28/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_29/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_3/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_30/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_31/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_32/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_33/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_34/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_35/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_36/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_37/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_38/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_39/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_4/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_40/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_41/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_42/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_43/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_44/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_45/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_46/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_47/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_48/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_49/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_5/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_6/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_7/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   ├── trial_8/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Indian_Pines_full_gast.json
+│   │       │   └── trial_9/
+│   │       │        
+│   │       │       ├── splits/
+│   │       │       │    
+│   │       │       │   ├── class_distribution_seed_42.txt
+│   │       │       │   ├── test_idx_seed_42.npy
+│   │       │       │   ├── train_idx_seed_42.npy
+│   │       │       │   └── val_idx_seed_42.npy
+│   │       │       └── train_history_Indian_Pines_full_gast.json
+│   │       ├── Kennedy_Space_Center/
+│   │       │    
+│   │       │   ├── trial_0/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_1/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_10/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_11/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_12/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_13/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_14/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_15/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_16/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_17/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_18/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_19/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_2/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_20/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_21/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_22/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_23/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_24/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_25/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_26/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_27/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_28/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_29/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_3/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_30/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_31/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_32/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_33/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_34/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_35/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_36/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_37/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_38/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_39/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_4/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_40/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_41/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_42/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_43/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_44/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_45/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_46/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_47/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_48/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_49/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_5/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_6/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_7/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   ├── trial_8/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       │   └── trial_9/
+│   │       │        
+│   │       │       └── splits/
+│   │       │            
+│   │       │           ├── class_distribution_seed_42.txt
+│   │       │           ├── test_idx_seed_42.npy
+│   │       │           ├── train_idx_seed_42.npy
+│   │       │           └── val_idx_seed_42.npy
+│   │       ├── Pavia_Centre/
+│   │       │    
+│   │       │   ├── trial_0/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_1/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_Centre_full_gast.json
+│   │       │   ├── trial_10/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_11/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_12/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_13/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_14/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_15/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_16/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_17/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_18/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_19/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_2/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_Centre_full_gast.json
+│   │       │   ├── trial_20/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_21/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_22/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_23/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_24/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_Centre_full_gast.json
+│   │       │   ├── trial_25/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_26/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_27/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_Centre_full_gast.json
+│   │       │   ├── trial_28/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_29/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_3/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_30/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_31/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_32/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_33/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_34/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_35/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_36/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_4/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_Centre_full_gast.json
+│   │       │   ├── trial_5/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_Centre_full_gast.json
+│   │       │   ├── trial_6/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_7/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_8/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   └── trial_9/
+│   │       │        
+│   │       │       └── splits/
+│   │       │            
+│   │       │           ├── class_distribution_seed_42.txt
+│   │       │           ├── test_idx_seed_42.npy
+│   │       │           ├── train_idx_seed_42.npy
+│   │       │           └── val_idx_seed_42.npy
+│   │       ├── Pavia_University/
+│   │       │    
+│   │       │   ├── trial_0/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_1/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_10/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_11/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_12/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_13/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_14/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_15/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_16/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_17/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_18/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_19/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_2/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_20/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_21/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_22/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_23/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_24/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_25/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_26/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_27/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_28/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_29/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_3/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_30/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_31/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_32/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_33/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_34/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_35/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_36/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_37/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_38/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_39/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_4/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_40/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_41/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_42/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_43/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_44/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_45/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_46/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_47/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_48/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_49/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_5/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Pavia_University_full_gast.json
+│   │       │   ├── trial_50/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_6/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_7/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_8/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   └── trial_9/
+│   │       │        
+│   │       │       ├── splits/
+│   │       │       │    
+│   │       │       │   ├── class_distribution_seed_42.txt
+│   │       │       │   ├── test_idx_seed_42.npy
+│   │       │       │   ├── train_idx_seed_42.npy
+│   │       │       │   └── val_idx_seed_42.npy
+│   │       │       └── train_history_Pavia_University_full_gast.json
+│   │       ├── Salinas/
+│   │       │    
+│   │       │   ├── trial_0/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Salinas_full_gast.json
+│   │       │   ├── trial_1/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_10/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Salinas_full_gast.json
+│   │       │   ├── trial_11/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_12/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_13/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_14/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_15/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_16/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_17/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_18/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_19/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_2/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Salinas_full_gast.json
+│   │       │   ├── trial_3/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Salinas_full_gast.json
+│   │       │   ├── trial_4/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_5/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Salinas_full_gast.json
+│   │       │   ├── trial_6/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   ├── trial_7/
+│   │       │   │    
+│   │       │   │   ├── splits/
+│   │       │   │   │    
+│   │       │   │   │   ├── class_distribution_seed_42.txt
+│   │       │   │   │   ├── test_idx_seed_42.npy
+│   │       │   │   │   ├── train_idx_seed_42.npy
+│   │       │   │   │   └── val_idx_seed_42.npy
+│   │       │   │   └── train_history_Salinas_full_gast.json
+│   │       │   ├── trial_8/
+│   │       │   │    
+│   │       │   │   └── splits/
+│   │       │   │        
+│   │       │   │       ├── class_distribution_seed_42.txt
+│   │       │   │       ├── test_idx_seed_42.npy
+│   │       │   │       ├── train_idx_seed_42.npy
+│   │       │   │       └── val_idx_seed_42.npy
+│   │       │   └── trial_9/
+│   │       │        
+│   │       │       └── splits/
+│   │       │            
+│   │       │           ├── class_distribution_seed_42.txt
+│   │       │           ├── test_idx_seed_42.npy
+│   │       │           ├── train_idx_seed_42.npy
+│   │       │           └── val_idx_seed_42.npy
+│   │       └── SalinasA/
+│   │            
+│   │           ├── trial_0/
+│   │           │    
+│   │           │   ├── splits/
+│   │           │   │    
+│   │           │   │   ├── class_distribution_seed_42.txt
+│   │           │   │   ├── test_idx_seed_42.npy
+│   │           │   │   ├── train_idx_seed_42.npy
+│   │           │   │   └── val_idx_seed_42.npy
+│   │           │   └── train_history_SalinasA_full_gast.json
+│   │           ├── trial_1/
+│   │           │    
+│   │           │   ├── splits/
+│   │           │   │    
+│   │           │   │   ├── class_distribution_seed_42.txt
+│   │           │   │   ├── test_idx_seed_42.npy
+│   │           │   │   ├── train_idx_seed_42.npy
+│   │           │   │   └── val_idx_seed_42.npy
+│   │           │   └── train_history_SalinasA_full_gast.json
+│   │           ├── trial_10/
+│   │           │    
+│   │           │   └── splits/
+│   │           │        
+│   │           │       ├── class_distribution_seed_42.txt
+│   │           │       ├── test_idx_seed_42.npy
+│   │           │       ├── train_idx_seed_42.npy
+│   │           │       └── val_idx_seed_42.npy
+│   │           ├── trial_11/
+│   │           │    
+│   │           │   └── splits/
+│   │           │        
+│   │           │       ├── class_distribution_seed_42.txt
+│   │           │       ├── test_idx_seed_42.npy
+│   │           │       ├── train_idx_seed_42.npy
+│   │           │       └── val_idx_seed_42.npy
+│   │           ├── trial_12/
+│   │           │    
+│   │           │   ├── splits/
+│   │           │   │    
+│   │           │   │   ├── class_distribution_seed_42.txt
+│   │           │   │   ├── test_idx_seed_42.npy
+│   │           │   │   ├── train_idx_seed_42.npy
+│   │           │   │   └── val_idx_seed_42.npy
+│   │           │   └── train_history_SalinasA_full_gast.json
+│   │           ├── trial_13/
+│   │           │    
+│   │           │   └── splits/
+│   │           │        
+│   │           │       ├── class_distribution_seed_42.txt
+│   │           │       ├── test_idx_seed_42.npy
+│   │           │       ├── train_idx_seed_42.npy
+│   │           │       └── val_idx_seed_42.npy
+│   │           ├── trial_14/
+│   │           │    
+│   │           │   ├── splits/
+│   │           │   │    
+│   │           │   │   ├── class_distribution_seed_42.txt
+│   │           │   │   ├── test_idx_seed_42.npy
+│   │           │   │   ├── train_idx_seed_42.npy
+│   │           │   │   └── val_idx_seed_42.npy
+│   │           │   └── train_history_SalinasA_full_gast.json
+│   │           ├── trial_15/
+│   │           │    
+│   │           │   └── splits/
+│   │           │        
+│   │           │       ├── class_distribution_seed_42.txt
+│   │           │       ├── test_idx_seed_42.npy
+│   │           │       ├── train_idx_seed_42.npy
+│   │           │       └── val_idx_seed_42.npy
+│   │           ├── trial_16/
+│   │           │    
+│   │           │   └── splits/
+│   │           │        
+│   │           │       ├── class_distribution_seed_42.txt
+│   │           │       ├── test_idx_seed_42.npy
+│   │           │       ├── train_idx_seed_42.npy
+│   │           │       └── val_idx_seed_42.npy
+│   │           ├── trial_17/
+│   │           │    
+│   │           │   └── splits/
+│   │           │        
+│   │           │       ├── class_distribution_seed_42.txt
+│   │           │       ├── test_idx_seed_42.npy
+│   │           │       ├── train_idx_seed_42.npy
+│   │           │       └── val_idx_seed_42.npy
+│   │           ├── trial_18/
+│   │           │    
+│   │           │   └── splits/
+│   │           │        
+│   │           │       ├── class_distribution_seed_42.txt
+│   │           │       ├── test_idx_seed_42.npy
+│   │           │       ├── train_idx_seed_42.npy
+│   │           │       └── val_idx_seed_42.npy
+│   │           ├── trial_19/
+│   │           │    
+│   │           │   └── splits/
+│   │           │        
+│   │           │       ├── class_distribution_seed_42.txt
+│   │           │       ├── test_idx_seed_42.npy
+│   │           │       ├── train_idx_seed_42.npy
+│   │           │       └── val_idx_seed_42.npy
+│   │           ├── trial_2/
+│   │           │    
+│   │           │   ├── splits/
+│   │           │   │    
+│   │           │   │   ├── class_distribution_seed_42.txt
+│   │           │   │   ├── test_idx_seed_42.npy
+│   │           │   │   ├── train_idx_seed_42.npy
+│   │           │   │   └── val_idx_seed_42.npy
+│   │           │   └── train_history_SalinasA_full_gast.json
+│   │           ├── trial_3/
+│   │           │    
+│   │           │   ├── splits/
+│   │           │   │    
+│   │           │   │   ├── class_distribution_seed_42.txt
+│   │           │   │   ├── test_idx_seed_42.npy
+│   │           │   │   ├── train_idx_seed_42.npy
+│   │           │   │   └── val_idx_seed_42.npy
+│   │           │   └── train_history_SalinasA_full_gast.json
+│   │           ├── trial_4/
+│   │           │    
+│   │           │   ├── splits/
+│   │           │   │    
+│   │           │   │   ├── class_distribution_seed_42.txt
+│   │           │   │   ├── test_idx_seed_42.npy
+│   │           │   │   ├── train_idx_seed_42.npy
+│   │           │   │   └── val_idx_seed_42.npy
+│   │           │   └── train_history_SalinasA_full_gast.json
+│   │           ├── trial_5/
+│   │           │    
+│   │           │   ├── splits/
+│   │           │   │    
+│   │           │   │   ├── class_distribution_seed_42.txt
+│   │           │   │   ├── test_idx_seed_42.npy
+│   │           │   │   ├── train_idx_seed_42.npy
+│   │           │   │   └── val_idx_seed_42.npy
+│   │           │   └── train_history_SalinasA_full_gast.json
+│   │           ├── trial_6/
+│   │           │    
+│   │           │   ├── splits/
+│   │           │   │    
+│   │           │   │   ├── class_distribution_seed_42.txt
+│   │           │   │   ├── test_idx_seed_42.npy
+│   │           │   │   ├── train_idx_seed_42.npy
+│   │           │   │   └── val_idx_seed_42.npy
+│   │           │   └── train_history_SalinasA_full_gast.json
+│   │           ├── trial_7/
+│   │           │    
+│   │           │   └── splits/
+│   │           │        
+│   │           │       ├── class_distribution_seed_42.txt
+│   │           │       ├── test_idx_seed_42.npy
+│   │           │       ├── train_idx_seed_42.npy
+│   │           │       └── val_idx_seed_42.npy
+│   │           ├── trial_8/
+│   │           │    
+│   │           │   ├── splits/
+│   │           │   │    
+│   │           │   │   ├── class_distribution_seed_42.txt
+│   │           │   │   ├── test_idx_seed_42.npy
+│   │           │   │   ├── train_idx_seed_42.npy
+│   │           │   │   └── val_idx_seed_42.npy
+│   │           │   └── train_history_SalinasA_full_gast.json
+│   │           └── trial_9/
+│   │                
+│   │               └── splits/
+│   │                    
+│   │                   ├── class_distribution_seed_42.txt
+│   │                   ├── test_idx_seed_42.npy
+│   │                   ├── train_idx_seed_42.npy
+│   │                   └── val_idx_seed_42.npy
+│   ├── final/
+│   │    
+│   │   └── gast/
+│   │        
+│   │       ├── Botswana/
+│   │       │    
+│   │       │   ├── test_results/
+│   │       │   │    
+│   │       │   │   ├── confusion_matrix_seed_42.npy
+│   │       │   │   ├── confusion_matrix_seed_42.png
+│   │       │   │   ├── confusion_matrix_seed_42.txt
+│   │       │   │   ├── confusion_matrix_seed_52.npy
+│   │       │   │   ├── confusion_matrix_seed_52.png
+│   │       │   │   ├── confusion_matrix_seed_52.txt
+│   │       │   │   ├── confusion_matrix_seed_62.npy
+│   │       │   │   ├── confusion_matrix_seed_62.png
+│   │       │   │   ├── confusion_matrix_seed_62.txt
+│   │       │   │   ├── confusion_matrix_seed_72.npy
+│   │       │   │   ├── confusion_matrix_seed_72.png
+│   │       │   │   ├── confusion_matrix_seed_72.txt
+│   │       │   │   ├── confusion_matrix_seed_82.npy
+│   │       │   │   ├── confusion_matrix_seed_82.png
+│   │       │   │   ├── confusion_matrix_seed_82.txt
+│   │       │   │   ├── gast_pred_remapped_seed_42.npy
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_42.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_52.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_62.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_72.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_82.png
+│   │       │   │   ├── metrics_seed_42.json
+│   │       │   │   ├── metrics_seed_52.json
+│   │       │   │   ├── metrics_seed_62.json
+│   │       │   │   ├── metrics_seed_72.json
+│   │       │   │   ├── metrics_seed_82.json
+│   │       │   │   ├── per_class_accuracy_seed_42.npy
+│   │       │   │   ├── per_class_accuracy_seed_42.png
+│   │       │   │   ├── per_class_accuracy_seed_52.npy
+│   │       │   │   ├── per_class_accuracy_seed_52.png
+│   │       │   │   ├── per_class_accuracy_seed_62.npy
+│   │       │   │   ├── per_class_accuracy_seed_62.png
+│   │       │   │   ├── per_class_accuracy_seed_72.npy
+│   │       │   │   ├── per_class_accuracy_seed_72.png
+│   │       │   │   ├── per_class_accuracy_seed_82.npy
+│   │       │   │   ├── per_class_accuracy_seed_82.png
+│   │       │   │   ├── pred_map_seed_42.npy
+│   │       │   │   ├── pred_map_seed_52.npy
+│   │       │   │   ├── pred_map_seed_62.npy
+│   │       │   │   ├── pred_map_seed_72.npy
+│   │       │   │   └── pred_map_seed_82.npy
+│   │       │   └── train_history_Botswana_full_gast.json
+│   │       ├── Houston13/
+│   │       │    
+│   │       │   ├── test_results/
+│   │       │   │    
+│   │       │   │   ├── confusion_matrix_seed_42.npy
+│   │       │   │   ├── confusion_matrix_seed_42.png
+│   │       │   │   ├── confusion_matrix_seed_42.txt
+│   │       │   │   ├── confusion_matrix_seed_52.npy
+│   │       │   │   ├── confusion_matrix_seed_52.png
+│   │       │   │   ├── confusion_matrix_seed_52.txt
+│   │       │   │   ├── confusion_matrix_seed_62.npy
+│   │       │   │   ├── confusion_matrix_seed_62.png
+│   │       │   │   ├── confusion_matrix_seed_62.txt
+│   │       │   │   ├── confusion_matrix_seed_72.npy
+│   │       │   │   ├── confusion_matrix_seed_72.png
+│   │       │   │   ├── confusion_matrix_seed_72.txt
+│   │       │   │   ├── confusion_matrix_seed_82.npy
+│   │       │   │   ├── confusion_matrix_seed_82.png
+│   │       │   │   ├── confusion_matrix_seed_82.txt
+│   │       │   │   ├── gt_vs_pred_seed_42.png
+│   │       │   │   ├── gt_vs_pred_seed_52.png
+│   │       │   │   ├── gt_vs_pred_seed_62.png
+│   │       │   │   ├── gt_vs_pred_seed_72.png
+│   │       │   │   ├── gt_vs_pred_seed_82.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_42.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_52.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_62.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_72.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_82.png
+│   │       │   │   ├── metrics_seed_42.json
+│   │       │   │   ├── metrics_seed_52.json
+│   │       │   │   ├── metrics_seed_62.json
+│   │       │   │   ├── metrics_seed_72.json
+│   │       │   │   ├── metrics_seed_82.json
+│   │       │   │   ├── per_class_accuracy_seed_42.npy
+│   │       │   │   ├── per_class_accuracy_seed_42.png
+│   │       │   │   ├── per_class_accuracy_seed_52.npy
+│   │       │   │   ├── per_class_accuracy_seed_52.png
+│   │       │   │   ├── per_class_accuracy_seed_62.npy
+│   │       │   │   ├── per_class_accuracy_seed_62.png
+│   │       │   │   ├── per_class_accuracy_seed_72.npy
+│   │       │   │   ├── per_class_accuracy_seed_72.png
+│   │       │   │   ├── per_class_accuracy_seed_82.npy
+│   │       │   │   ├── per_class_accuracy_seed_82.png
+│   │       │   │   ├── pred_map_seed_42.npy
+│   │       │   │   ├── pred_map_seed_52.npy
+│   │       │   │   ├── pred_map_seed_62.npy
+│   │       │   │   ├── pred_map_seed_72.npy
+│   │       │   │   └── pred_map_seed_82.npy
+│   │       │   └── train_history_Houston13_full_gast.json
+│   │       ├── Indian_Pines/
+│   │       │    
+│   │       │   ├── test_results/
+│   │       │   │    
+│   │       │   │   ├── confusion_matrix_seed_42.npy
+│   │       │   │   ├── confusion_matrix_seed_42.png
+│   │       │   │   ├── confusion_matrix_seed_42.txt
+│   │       │   │   ├── confusion_matrix_seed_52.npy
+│   │       │   │   ├── confusion_matrix_seed_52.png
+│   │       │   │   ├── confusion_matrix_seed_52.txt
+│   │       │   │   ├── confusion_matrix_seed_62.npy
+│   │       │   │   ├── confusion_matrix_seed_62.png
+│   │       │   │   ├── confusion_matrix_seed_62.txt
+│   │       │   │   ├── confusion_matrix_seed_72.npy
+│   │       │   │   ├── confusion_matrix_seed_72.png
+│   │       │   │   ├── confusion_matrix_seed_72.txt
+│   │       │   │   ├── confusion_matrix_seed_82.npy
+│   │       │   │   ├── confusion_matrix_seed_82.png
+│   │       │   │   ├── confusion_matrix_seed_82.txt
+│   │       │   │   ├── gt_vs_pred_seed_42.png
+│   │       │   │   ├── gt_vs_pred_seed_52.png
+│   │       │   │   ├── gt_vs_pred_seed_62.png
+│   │       │   │   ├── gt_vs_pred_seed_72.png
+│   │       │   │   ├── gt_vs_pred_seed_82.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_42.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_52.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_62.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_72.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_82.png
+│   │       │   │   ├── metrics_seed_42.json
+│   │       │   │   ├── metrics_seed_52.json
+│   │       │   │   ├── metrics_seed_62.json
+│   │       │   │   ├── metrics_seed_72.json
+│   │       │   │   ├── metrics_seed_82.json
+│   │       │   │   ├── per_class_accuracy_seed_42.npy
+│   │       │   │   ├── per_class_accuracy_seed_42.png
+│   │       │   │   ├── per_class_accuracy_seed_52.npy
+│   │       │   │   ├── per_class_accuracy_seed_52.png
+│   │       │   │   ├── per_class_accuracy_seed_62.npy
+│   │       │   │   ├── per_class_accuracy_seed_62.png
+│   │       │   │   ├── per_class_accuracy_seed_72.npy
+│   │       │   │   ├── per_class_accuracy_seed_72.png
+│   │       │   │   ├── per_class_accuracy_seed_82.npy
+│   │       │   │   ├── per_class_accuracy_seed_82.png
+│   │       │   │   ├── pred_map_seed_42.npy
+│   │       │   │   ├── pred_map_seed_52.npy
+│   │       │   │   ├── pred_map_seed_62.npy
+│   │       │   │   ├── pred_map_seed_72.npy
+│   │       │   │   └── pred_map_seed_82.npy
+│   │       │   └── train_history_Indian_Pines_full_gast.json
+│   │       ├── Kennedy_Space_Center/
+│   │       │    
+│   │       │   ├── test_results/
+│   │       │   │    
+│   │       │   │   ├── confusion_matrix_seed_42.npy
+│   │       │   │   ├── confusion_matrix_seed_42.png
+│   │       │   │   ├── confusion_matrix_seed_42.txt
+│   │       │   │   ├── confusion_matrix_seed_52.npy
+│   │       │   │   ├── confusion_matrix_seed_52.png
+│   │       │   │   ├── confusion_matrix_seed_52.txt
+│   │       │   │   ├── confusion_matrix_seed_62.npy
+│   │       │   │   ├── confusion_matrix_seed_62.png
+│   │       │   │   ├── confusion_matrix_seed_62.txt
+│   │       │   │   ├── confusion_matrix_seed_72.npy
+│   │       │   │   ├── confusion_matrix_seed_72.png
+│   │       │   │   ├── confusion_matrix_seed_72.txt
+│   │       │   │   ├── confusion_matrix_seed_82.npy
+│   │       │   │   ├── confusion_matrix_seed_82.png
+│   │       │   │   ├── confusion_matrix_seed_82.txt
+│   │       │   │   ├── gt_vs_pred_seed_42.png
+│   │       │   │   ├── gt_vs_pred_seed_52.png
+│   │       │   │   ├── gt_vs_pred_seed_62.png
+│   │       │   │   ├── gt_vs_pred_seed_72.png
+│   │       │   │   ├── gt_vs_pred_seed_82.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_42.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_52.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_62.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_72.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_82.png
+│   │       │   │   ├── metrics_seed_42.json
+│   │       │   │   ├── metrics_seed_52.json
+│   │       │   │   ├── metrics_seed_62.json
+│   │       │   │   ├── metrics_seed_72.json
+│   │       │   │   ├── metrics_seed_82.json
+│   │       │   │   ├── per_class_accuracy_seed_42.npy
+│   │       │   │   ├── per_class_accuracy_seed_42.png
+│   │       │   │   ├── per_class_accuracy_seed_52.npy
+│   │       │   │   ├── per_class_accuracy_seed_52.png
+│   │       │   │   ├── per_class_accuracy_seed_62.npy
+│   │       │   │   ├── per_class_accuracy_seed_62.png
+│   │       │   │   ├── per_class_accuracy_seed_72.npy
+│   │       │   │   ├── per_class_accuracy_seed_72.png
+│   │       │   │   ├── per_class_accuracy_seed_82.npy
+│   │       │   │   ├── per_class_accuracy_seed_82.png
+│   │       │   │   ├── pred_map_seed_42.npy
+│   │       │   │   ├── pred_map_seed_52.npy
+│   │       │   │   ├── pred_map_seed_62.npy
+│   │       │   │   ├── pred_map_seed_72.npy
+│   │       │   │   └── pred_map_seed_82.npy
+│   │       │   └── train_history_Kennedy_Space_Center_full_gast.json
+│   │       ├── Pavia_Centre/
+│   │       │    
+│   │       │   ├── test_results/
+│   │       │   │    
+│   │       │   │   ├── confusion_matrix_seed_42.npy
+│   │       │   │   ├── confusion_matrix_seed_42.png
+│   │       │   │   ├── confusion_matrix_seed_42.txt
+│   │       │   │   ├── confusion_matrix_seed_52.npy
+│   │       │   │   ├── confusion_matrix_seed_52.png
+│   │       │   │   ├── confusion_matrix_seed_52.txt
+│   │       │   │   ├── confusion_matrix_seed_62.npy
+│   │       │   │   ├── confusion_matrix_seed_62.png
+│   │       │   │   ├── confusion_matrix_seed_62.txt
+│   │       │   │   ├── confusion_matrix_seed_72.npy
+│   │       │   │   ├── confusion_matrix_seed_72.png
+│   │       │   │   ├── confusion_matrix_seed_72.txt
+│   │       │   │   ├── confusion_matrix_seed_82.npy
+│   │       │   │   ├── confusion_matrix_seed_82.png
+│   │       │   │   ├── confusion_matrix_seed_82.txt
+│   │       │   │   ├── gt_vs_pred_seed_42.png
+│   │       │   │   ├── gt_vs_pred_seed_52.png
+│   │       │   │   ├── gt_vs_pred_seed_62.png
+│   │       │   │   ├── gt_vs_pred_seed_72.png
+│   │       │   │   ├── gt_vs_pred_seed_82.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_42.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_52.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_62.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_72.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_82.png
+│   │       │   │   ├── metrics_seed_42.json
+│   │       │   │   ├── metrics_seed_52.json
+│   │       │   │   ├── metrics_seed_62.json
+│   │       │   │   ├── metrics_seed_72.json
+│   │       │   │   ├── metrics_seed_82.json
+│   │       │   │   ├── per_class_accuracy_seed_42.npy
+│   │       │   │   ├── per_class_accuracy_seed_42.png
+│   │       │   │   ├── per_class_accuracy_seed_52.npy
+│   │       │   │   ├── per_class_accuracy_seed_52.png
+│   │       │   │   ├── per_class_accuracy_seed_62.npy
+│   │       │   │   ├── per_class_accuracy_seed_62.png
+│   │       │   │   ├── per_class_accuracy_seed_72.npy
+│   │       │   │   ├── per_class_accuracy_seed_72.png
+│   │       │   │   ├── per_class_accuracy_seed_82.npy
+│   │       │   │   ├── per_class_accuracy_seed_82.png
+│   │       │   │   ├── pred_map_seed_42.npy
+│   │       │   │   ├── pred_map_seed_52.npy
+│   │       │   │   ├── pred_map_seed_62.npy
+│   │       │   │   ├── pred_map_seed_72.npy
+│   │       │   │   └── pred_map_seed_82.npy
+│   │       │   └── train_history_Pavia_Centre_full_gast.json
+│   │       ├── Pavia_University/
+│   │       │    
+│   │       │   ├── splits/
+│   │       │   │    
+│   │       │   │   ├── class_distribution_seed_252.txt
+│   │       │   │   ├── class_distribution_seed_262.txt
+│   │       │   │   ├── class_distribution_seed_272.txt
+│   │       │   │   ├── class_distribution_seed_282.txt
+│   │       │   │   ├── class_distribution_seed_292.txt
+│   │       │   │   ├── test_idx_seed_252.npy
+│   │       │   │   ├── test_idx_seed_262.npy
+│   │       │   │   ├── test_idx_seed_272.npy
+│   │       │   │   ├── test_idx_seed_282.npy
+│   │       │   │   ├── test_idx_seed_292.npy
+│   │       │   │   ├── train_idx_seed_252.npy
+│   │       │   │   ├── train_idx_seed_262.npy
+│   │       │   │   ├── train_idx_seed_272.npy
+│   │       │   │   ├── train_idx_seed_282.npy
+│   │       │   │   ├── train_idx_seed_292.npy
+│   │       │   │   ├── val_idx_seed_252.npy
+│   │       │   │   ├── val_idx_seed_262.npy
+│   │       │   │   ├── val_idx_seed_272.npy
+│   │       │   │   ├── val_idx_seed_282.npy
+│   │       │   │   └── val_idx_seed_292.npy
+│   │       │   ├── test_results/
+│   │       │   │    
+│   │       │   │   ├── confusion_matrix_seed_42.npy
+│   │       │   │   ├── confusion_matrix_seed_42.png
+│   │       │   │   ├── confusion_matrix_seed_42.txt
+│   │       │   │   ├── confusion_matrix_seed_52.npy
+│   │       │   │   ├── confusion_matrix_seed_52.png
+│   │       │   │   ├── confusion_matrix_seed_52.txt
+│   │       │   │   ├── confusion_matrix_seed_62.npy
+│   │       │   │   ├── confusion_matrix_seed_62.png
+│   │       │   │   ├── confusion_matrix_seed_62.txt
+│   │       │   │   ├── confusion_matrix_seed_72.npy
+│   │       │   │   ├── confusion_matrix_seed_72.png
+│   │       │   │   ├── confusion_matrix_seed_72.txt
+│   │       │   │   ├── confusion_matrix_seed_82.npy
+│   │       │   │   ├── confusion_matrix_seed_82.png
+│   │       │   │   ├── confusion_matrix_seed_82.txt
+│   │       │   │   ├── gt_vs_pred_seed_42.png
+│   │       │   │   ├── gt_vs_pred_seed_52.png
+│   │       │   │   ├── gt_vs_pred_seed_62.png
+│   │       │   │   ├── gt_vs_pred_seed_72.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_42.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_52.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_62.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_72.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_82.png
+│   │       │   │   ├── metrics_seed_42.json
+│   │       │   │   ├── metrics_seed_52.json
+│   │       │   │   ├── metrics_seed_62.json
+│   │       │   │   ├── metrics_seed_72.json
+│   │       │   │   ├── metrics_seed_82.json
+│   │       │   │   ├── per_class_accuracy_seed_42.npy
+│   │       │   │   ├── per_class_accuracy_seed_42.png
+│   │       │   │   ├── per_class_accuracy_seed_52.npy
+│   │       │   │   ├── per_class_accuracy_seed_52.png
+│   │       │   │   ├── per_class_accuracy_seed_62.npy
+│   │       │   │   ├── per_class_accuracy_seed_62.png
+│   │       │   │   ├── per_class_accuracy_seed_72.npy
+│   │       │   │   ├── per_class_accuracy_seed_72.png
+│   │       │   │   ├── per_class_accuracy_seed_82.npy
+│   │       │   │   ├── per_class_accuracy_seed_82.png
+│   │       │   │   ├── pred_map_seed_42.npy
+│   │       │   │   ├── pred_map_seed_52.npy
+│   │       │   │   ├── pred_map_seed_62.npy
+│   │       │   │   ├── pred_map_seed_72.npy
+│   │       │   │   └── pred_map_seed_82.npy
+│   │       │   └── train_history_Pavia_University_full_gast.json
+│   │       ├── Salinas/
+│   │       │    
+│   │       │   ├── test_results/
+│   │       │   │    
+│   │       │   │   ├── confusion_matrix_seed_42.npy
+│   │       │   │   ├── confusion_matrix_seed_42.png
+│   │       │   │   ├── confusion_matrix_seed_42.txt
+│   │       │   │   ├── confusion_matrix_seed_52.npy
+│   │       │   │   ├── confusion_matrix_seed_52.png
+│   │       │   │   ├── confusion_matrix_seed_52.txt
+│   │       │   │   ├── confusion_matrix_seed_62.npy
+│   │       │   │   ├── confusion_matrix_seed_62.png
+│   │       │   │   ├── confusion_matrix_seed_62.txt
+│   │       │   │   ├── confusion_matrix_seed_72.npy
+│   │       │   │   ├── confusion_matrix_seed_72.png
+│   │       │   │   ├── confusion_matrix_seed_72.txt
+│   │       │   │   ├── confusion_matrix_seed_82.npy
+│   │       │   │   ├── confusion_matrix_seed_82.png
+│   │       │   │   ├── confusion_matrix_seed_82.txt
+│   │       │   │   ├── gt_vs_pred_seed_42.png
+│   │       │   │   ├── gt_vs_pred_seed_52.png
+│   │       │   │   ├── gt_vs_pred_seed_62.png
+│   │       │   │   ├── gt_vs_pred_seed_82.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_42.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_52.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_62.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_72.png
+│   │       │   │   ├── gt_vs_pred_side_by_side_seed_82.png
+│   │       │   │   ├── metrics_seed_42.json
+│   │       │   │   ├── metrics_seed_52.json
+│   │       │   │   ├── metrics_seed_62.json
+│   │       │   │   ├── metrics_seed_72.json
+│   │       │   │   ├── metrics_seed_82.json
+│   │       │   │   ├── per_class_accuracy_seed_42.npy
+│   │       │   │   ├── per_class_accuracy_seed_42.png
+│   │       │   │   ├── per_class_accuracy_seed_52.npy
+│   │       │   │   ├── per_class_accuracy_seed_52.png
+│   │       │   │   ├── per_class_accuracy_seed_62.npy
+│   │       │   │   ├── per_class_accuracy_seed_62.png
+│   │       │   │   ├── per_class_accuracy_seed_72.npy
+│   │       │   │   ├── per_class_accuracy_seed_72.png
+│   │       │   │   ├── per_class_accuracy_seed_82.npy
+│   │       │   │   ├── per_class_accuracy_seed_82.png
+│   │       │   │   ├── pred_map_seed_42.npy
+│   │       │   │   ├── pred_map_seed_52.npy
+│   │       │   │   ├── pred_map_seed_62.npy
+│   │       │   │   ├── pred_map_seed_72.npy
+│   │       │   │   └── pred_map_seed_82.npy
+│   │       │   └── train_history_Salinas_full_gast.json
+│   │       └── SalinasA/
+│   │            
+│   │           ├── splits/
+│   │           │    
+│   │           │   ├── class_distribution_seed_242.txt
+│   │           │   ├── test_idx_seed_242.npy
+│   │           │   ├── train_idx_seed_242.npy
+│   │           │   └── val_idx_seed_242.npy
+│   │           ├── test_results/
+│   │           │    
+│   │           │   ├── confusion_matrix_seed_242.npy
+│   │           │   ├── confusion_matrix_seed_242.png
+│   │           │   ├── confusion_matrix_seed_242.txt
+│   │           │   ├── confusion_matrix_seed_42.npy
+│   │           │   ├── confusion_matrix_seed_42.png
+│   │           │   ├── confusion_matrix_seed_42.txt
+│   │           │   ├── confusion_matrix_seed_52.npy
+│   │           │   ├── confusion_matrix_seed_52.png
+│   │           │   ├── confusion_matrix_seed_52.txt
+│   │           │   ├── confusion_matrix_seed_62.npy
+│   │           │   ├── confusion_matrix_seed_62.png
+│   │           │   ├── confusion_matrix_seed_62.txt
+│   │           │   ├── confusion_matrix_seed_72.npy
+│   │           │   ├── confusion_matrix_seed_72.png
+│   │           │   ├── confusion_matrix_seed_72.txt
+│   │           │   ├── confusion_matrix_seed_82.npy
+│   │           │   ├── confusion_matrix_seed_82.png
+│   │           │   ├── confusion_matrix_seed_82.txt
+│   │           │   ├── gt_vs_pred_seed_42.png
+│   │           │   ├── gt_vs_pred_side_by_side_seed_242.png
+│   │           │   ├── gt_vs_pred_side_by_side_seed_42.png
+│   │           │   ├── gt_vs_pred_side_by_side_seed_52.png
+│   │           │   ├── gt_vs_pred_side_by_side_seed_62.png
+│   │           │   ├── gt_vs_pred_side_by_side_seed_72.png
+│   │           │   ├── gt_vs_pred_side_by_side_seed_82.png
+│   │           │   ├── metrics_seed_242.json
+│   │           │   ├── metrics_seed_42.json
+│   │           │   ├── metrics_seed_52.json
+│   │           │   ├── metrics_seed_62.json
+│   │           │   ├── metrics_seed_72.json
+│   │           │   ├── metrics_seed_82.json
+│   │           │   ├── per_class_accuracy_seed_242.npy
+│   │           │   ├── per_class_accuracy_seed_242.png
+│   │           │   ├── per_class_accuracy_seed_42.npy
+│   │           │   ├── per_class_accuracy_seed_42.png
+│   │           │   ├── per_class_accuracy_seed_52.npy
+│   │           │   ├── per_class_accuracy_seed_52.png
+│   │           │   ├── per_class_accuracy_seed_62.npy
+│   │           │   ├── per_class_accuracy_seed_62.png
+│   │           │   ├── per_class_accuracy_seed_72.npy
+│   │           │   ├── per_class_accuracy_seed_72.png
+│   │           │   ├── per_class_accuracy_seed_82.npy
+│   │           │   ├── per_class_accuracy_seed_82.png
+│   │           │   ├── pred_map_seed_242.npy
+│   │           │   ├── pred_map_seed_42.npy
+│   │           │   ├── pred_map_seed_52.npy
+│   │           │   ├── pred_map_seed_62.npy
+│   │           │   ├── pred_map_seed_72.npy
+│   │           │   └── pred_map_seed_82.npy
+│   │           └── train_history_SalinasA_full_gast.json
+│   └── gast_ablation/
+│        
+│       └── Botswana/
+│            
+│           ├── ablation_figures/
+│           │    
+│           │   ├── ablation_barplot.png
+│           │   ├── ablation_summary.csv
+│           │   └── ablation_summary.txt
+│           ├── concat_Botswana/
+│           │    
+│           │   ├── test_results/
+│           │   │    
+│           │   │   ├── confusion_matrix_seed_202.npy
+│           │   │   ├── confusion_matrix_seed_202.png
+│           │   │   ├── confusion_matrix_seed_202.txt
+│           │   │   ├── gt_vs_pred_side_by_side_seed_202.png
+│           │   │   ├── metrics_seed_202.json
+│           │   │   ├── per_class_accuracy_seed_202.npy
+│           │   │   ├── per_class_accuracy_seed_202.png
+│           │   │   └── pred_map_seed_202.npy
+│           │   └── train_history_Botswana_concat_fusion.json
+│           ├── full_Botswana/
+│           │    
+│           │   ├── test_results/
+│           │   │    
+│           │   │   ├── confusion_matrix_seed_202.npy
+│           │   │   ├── confusion_matrix_seed_202.png
+│           │   │   ├── confusion_matrix_seed_202.txt
+│           │   │   ├── gt_vs_pred_side_by_side_seed_202.png
+│           │   │   ├── metrics_seed_202.json
+│           │   │   ├── per_class_accuracy_seed_202.npy
+│           │   │   ├── per_class_accuracy_seed_202.png
+│           │   │   └── pred_map_seed_202.npy
+│           │   └── train_history_Botswana_full_gast.json
+│           ├── no_spatial_Botswana/
+│           │    
+│           │   ├── test_results/
+│           │   │    
+│           │   │   ├── confusion_matrix_seed_202.npy
+│           │   │   ├── confusion_matrix_seed_202.png
+│           │   │   ├── confusion_matrix_seed_202.txt
+│           │   │   ├── gt_vs_pred_side_by_side_seed_202.png
+│           │   │   ├── metrics_seed_202.json
+│           │   │   ├── per_class_accuracy_seed_202.npy
+│           │   │   ├── per_class_accuracy_seed_202.png
+│           │   │   └── pred_map_seed_202.npy
+│           │   └── train_history_Botswana_no_spatial.json
+│           └── no_spectral_Botswana/
+│                
+│               ├── test_results/
+│               │    
+│               │   ├── confusion_matrix_seed_202.npy
+│               │   ├── confusion_matrix_seed_202.png
+│               │   ├── confusion_matrix_seed_202.txt
+│               │   ├── gt_vs_pred_side_by_side_seed_202.png
+│               │   ├── metrics_seed_202.json
+│               │   ├── per_class_accuracy_seed_202.npy
+│               │   ├── per_class_accuracy_seed_202.png
+│               │   └── pred_map_seed_202.npy
+│               └── train_history_Botswana_no_spectral.json
+├── notebooks/
+│    
+│   ├── experiments/
+│   │    
+│   │   ├── reports/
+│   │   │    
+│   │   │   └── figures/
+│   │   │        
+│   │   │       ├── band_15_Botswana.png
+│   │   │       ├── band_15_Houston13.png
+│   │   │       ├── band_15_Indian_Pines.png
+│   │   │       ├── band_15_Kennedy_Space_Center.png
+│   │   │       ├── band_15_Pavia_Centre.png
+│   │   │       ├── band_15_Pavia_University.png
+│   │   │       ├── band_15_Salinas.png
+│   │   │       ├── band_15_SalinasA.png
+│   │   │       ├── class_distribution_Botswana.png
+│   │   │       ├── class_distribution_Houston13.png
+│   │   │       ├── class_distribution_Indian_Pines.png
+│   │   │       ├── class_distribution_Kennedy_Space_Center.png
+│   │   │       ├── class_distribution_Pavia_Centre.png
+│   │   │       ├── class_distribution_Pavia_University.png
+│   │   │       ├── class_distribution_Salinas.png
+│   │   │       ├── class_distribution_SalinasA.png
+│   │   │       ├── class_table_Botswana.png
+│   │   │       ├── class_table_Houston13.png
+│   │   │       ├── class_table_Indian_Pines.png
+│   │   │       ├── class_table_Kennedy_Space_Center.png
+│   │   │       ├── class_table_Pavia_Centre.png
+│   │   │       ├── class_table_Pavia_University.png
+│   │   │       ├── class_table_Salinas.png
+│   │   │       ├── class_table_SalinasA.png
+│   │   │       ├── ground_truth_Botswana.png
+│   │   │       ├── ground_truth_Houston13.png
+│   │   │       ├── ground_truth_Indian_Pines.png
+│   │   │       ├── ground_truth_Kennedy_Space_Center.png
+│   │   │       ├── ground_truth_Pavia_Centre.png
+│   │   │       ├── ground_truth_Pavia_University.png
+│   │   │       ├── ground_truth_Salinas.png
+│   │   │       ├── ground_truth_SalinasA.png
+│   │   │       ├── rgb_and_gt_Botswana_(30, 20, 10).png
+│   │   │       ├── rgb_and_gt_Houston13_(30, 20, 10).png
+│   │   │       ├── rgb_and_gt_Indian_Pines_(43, 21, 11).png
+│   │   │       ├── rgb_and_gt_Kennedy_Space_Center_(50, 30, 10).png
+│   │   │       ├── rgb_and_gt_Pavia_Centre_(60, 30, 2).png
+│   │   │       ├── rgb_and_gt_Pavia_University_(60, 30, 2).png
+│   │   │       ├── rgb_and_gt_SalinasA_(30, 20, 10).png
+│   │   │       ├── rgb_and_gt_Salinas_(30, 20, 10).png
+│   │   │       ├── rgb_composite_Botswana_(30, 20, 10).png
+│   │   │       ├── rgb_composite_Houston13_(30, 20, 10).png
+│   │   │       ├── rgb_composite_Indian_Pines_(43, 21, 11).png
+│   │   │       ├── rgb_composite_Kennedy_Space_Center_(50, 30, 10).png
+│   │   │       ├── rgb_composite_Pavia_Centre_(60, 30, 2).png
+│   │   │       ├── rgb_composite_Pavia_University_(60, 30, 2).png
+│   │   │       ├── rgb_composite_SalinasA_(30, 20, 10).png
+│   │   │       ├── rgb_composite_Salinas_(30, 20, 10).png
+│   │   │       ├── spectral_signature_Botswana_50_50.png
+│   │   │       ├── spectral_signature_Houston13_50_50.png
+│   │   │       ├── spectral_signature_Indian_Pines_50_50.png
+│   │   │       ├── spectral_signature_Kennedy_Space_Center_50_50.png
+│   │   │       ├── spectral_signature_Pavia_Centre_50_50.png
+│   │   │       ├── spectral_signature_Pavia_University_50_50.png
+│   │   │       ├── spectral_signature_SalinasA_50_50.png
+│   │   │       └── spectral_signature_Salinas_50_50.png
+│   │   ├── Botswana_gt_vs_pred.png
+│   │   ├── Houston13_gt_vs_pred.png
+│   │   ├── Indian_Pines_gt_vs_pred.png
+│   │   ├── Kennedy_Space_Center_gt_vs_pred.png
+│   │   ├── Pavia_Centre_gt_vs_pred.png
+│   │   ├── Pavia_University_gt_vs_pred.png
+│   │   ├── SalinasA_gt_vs_pred.png
+│   │   ├── Salinas_gt_vs_pred.png
+│   │   └── ablation_results.ipynb
+│   └── exploration/
+│        
+│       └── data_explorer.ipynb
+├── references/
+│    
+│   ├── create_project_structure.py
+│   └── project_structure.txt
+├── reports/
+│    
+│   ├── figures/
+│   │    
+│   │   ├── tsne_Pavia_University.png
+│   │   ├── tsne_Pavia_University_test.png
+│   │   └── tsne_full_Pavia_University.png
+│   ├── optuna_db/
+│   │    
+│   │   ├── study_Botswana_coarse.db
+│   │   ├── study_Botswana_fine.db
+│   │   ├── study_Houston13_coarse.db
+│   │   ├── study_Houston13_fine.db
+│   │   ├── study_Indian_Pines_coarse.db
+│   │   ├── study_Indian_Pines_fine.db
+│   │   ├── study_Kennedy_Space_Center_coarse.db
+│   │   ├── study_Kennedy_Space_Center_fine.db
+│   │   ├── study_Pavia_Centre_coarse.db
+│   │   ├── study_Pavia_Centre_fine.db
+│   │   ├── study_Pavia_University_coarse.db
+│   │   ├── study_Pavia_University_fine.db
+│   │   ├── study_SalinasA_coarse.db
+│   │   ├── study_SalinasA_fine.db
+│   │   ├── study_Salinas_coarse.db
+│   │   └── study_Salinas_fine.db
+│   ├── optuna_reports/
+│   │    
+│   │   └── optuna_reports_study_Pavia_University/
+│   │        
+│   │       ├── coarse/
+│   │       │    
+│   │       │   ├── coarse_all_trials.csv
+│   │       │   ├── coarse_robustness_stats.json
+│   │       │   ├── coarse_state_summary.json
+│   │       │   ├── coarse_top_10_trials.csv
+│   │       │   ├── coarse_top_20_trials.csv
+│   │       │   ├── optimization_history_coarse.png
+│   │       │   ├── parallel_coordinate_coarse.png
+│   │       │   ├── param_importances_coarse.png
+│   │       │   └── slice_plot_coarse.png
+│   │       └── fine/
+│   │            
+│   │           ├── fine_all_trials.csv
+│   │           ├── fine_robustness_stats.json
+│   │           ├── fine_state_summary.json
+│   │           ├── fine_top_10_trials.csv
+│   │           ├── fine_top_20_trials.csv
+│   │           ├── optimization_history_fine.png
+│   │           ├── parallel_coordinate_fine.png
+│   │           ├── param_importances_fine.png
+│   │           └── slice_plot_fine.png
+│   ├── results/
+│   │    
+│   │   ├── class_distributions.txt
+│   │   ├── gast_coarse_best_Botswana.sh
+│   │   ├── gast_coarse_best_Indian_Pines.sh
+│   │   ├── gast_coarse_best_Kennedy_Space_Center.sh
+│   │   ├── gast_coarse_best_Pavia_Centre.sh
+│   │   ├── gast_coarse_best_Pavia_University.sh
+│   │   ├── gast_coarse_best_Salinas.sh
+│   │   ├── gast_coarse_best_SalinasA.sh
+│   │   ├── gast_fine_best_Botswana.sh
+│   │   ├── gast_fine_best_Indian_Pines.sh
+│   │   ├── gast_fine_best_Kennedy_Space_Center.sh
+│   │   ├── gast_fine_best_Pavia_Centre.sh
+│   │   ├── gast_fine_best_Salinas.sh
+│   │   ├── gast_fine_best_SalinasA.sh
+│   │   ├── metrics_summary.csv
+│   │   ├── metrics_summary.txt
+│   │   └── metrics_summary_latex.txt
+│   ├── all_dataset_clis.txt
+│   ├── hyperparameters.md
+│   └── report.md
+├── scripts/
+│    
+│   ├── run_gast_ablation.sh
+│   └── run_parameter_sweep.sh
+├── src/
+│    
+│   ├── Dataset/
+│   │    
+│   │   ├── Botswana/
+│   │   │    
+│   │   │   ├── Botswana.mat
+│   │   │   └── Botswana_gt.mat
+│   │   ├── Houston13/
+│   │   │    
+│   │   │   ├── Houston13.mat
+│   │   │   └── Houston13_gt.mat
+│   │   ├── Indian_Pines/
+│   │   │    
+│   │   │   ├── Indian_Pines.mat
+│   │   │   ├── Indian_Pines_corrected.mat
+│   │   │   └── Indian_Pines_gt.mat
+│   │   ├── Kennedy_Space_Center/
+│   │   │    
+│   │   │   ├── Kennedy_Space_Center.mat
+│   │   │   ├── Kennedy_Space_Center_corrected.mat
+│   │   │   └── Kennedy_Space_Center_gt.mat
+│   │   ├── Pavia_Centre/
+│   │   │    
+│   │   │   ├── Pavia_Centre.mat
+│   │   │   └── Pavia_Centre_gt.mat
+│   │   ├── Pavia_University/
+│   │   │    
+│   │   │   ├── Pavia_University.mat
+│   │   │   └── Pavia_University_gt.mat
+│   │   ├── Salinas/
+│   │   │    
+│   │   │   ├── Salinas.mat
+│   │   │   ├── Salinas_corrected.mat
+│   │   │   └── Salinas_gt.mat
+│   │   └── SalinasA/
+│   │        
+│   │       ├── SalinasA.mat
+│   │       ├── SalinasA_corrected.mat
+│   │       └── SalinasA_gt.mat
+│   ├── data/
+│   │    
+│   │   ├── __init__.py
+│   │   ├── class_distribution.py
+│   │   ├── data_loader.py
+│   │   ├── dataset.py
+│   │   ├── dataset_info.py
+│   │   └── downloader.py
+│   ├── models/
+│   │    
+│   │   ├── __init__.py
+│   │   └── model_architecture.py
+│   ├── training/
+│   │    
+│   │   ├── __init__.py
+│   │   ├── gast_hyperparameter_tuning.py
+│   │   ├── generate_optuna_reports.py
+│   │   ├── test.py
+│   │   ├── train.py
+│   │   └── tsne_plot.py
+│   └── utils/
+│        
+│       ├── plot_gt_vs_pred_for_paper.py
+│       ├── research_viz.py
+│       ├── resize_plotted_png.py
+│       ├── utils.py
+│       └── visualization.py
+├── LICENSE
+├── README.md
+├── all_results_sorted.csv
+├── file_delete.py
+├── main.py
+├── multirun.py
+├── requirements.txt
+├── result_sorted.py
+├── run_all_tsne.py
+└── summarize_metrics.py
